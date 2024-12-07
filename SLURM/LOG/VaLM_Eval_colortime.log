@@ -1,0 +1,20 @@
+Hasi da
+
+
+Evaluating MEMORY COLOR
+Evaluating: ./CHECKPOINTS/checkpoint_valmA100_40600upd_small/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+151154688
+Time for prompt 'Q: What is the color of [DESCRIPTOR] [ITEM]? A: It is': 2.557488 seconds
+Time for prompt 'Q: What is the colour of [DESCRIPTOR] [ITEM] ? A: It is ': 1.907126 seconds
+Time for prompt 'What is the color of [DESCRIPTOR] [ITEM]? It is': 1.870098 seconds
+Time for prompt 'What is the colour of [DESCRIPTOR] [ITEM]? ': 1.873122 seconds
+Time for prompt 'What is the usual color of [DESCRIPTOR] [ITEM]?': 1.870417 seconds
+Time for prompt 'What is the typical color of [DESCRIPTOR] [ITEM]?': 1.868555 seconds
+Time for prompt 'The color of [DESCRIPTOR] [ITEM] is': 1.858115 seconds
+Time for prompt 'The usual color of [DESCRIPTOR] [ITEM] is': 1.830099 seconds
+Time for prompt '[DESCRIPTOR] [ITEM] usually has the color of': 1.847611 seconds
+
+Mean time per prompt: 1.942515 seconds
+Object Color Reasoning Accuracy is : 0.47604485219164117
+Amaitu da

@@ -1,0 +1,98 @@
+myscripts/train_valmA100_finetune2.sh: line 9: 
+DATA_DIR=./data/finetune_data
+CKPT_DIR=./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3
+CKPT_DIR_R=./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4
+DATASTORE_DIR=./data/image_features_datastore
+K=4
+
+srun torchrun --nproc_per_node=4 fairseq/fairseq_cli/train.py ${DATA_DIR} --save-dir ${CKPT_DIR} --task language_modeling --arch transformer_lm_gpt --share-decoder-input-output-embed --dropout 0.1 --optimizer adam --adam-betas (0.9, 0.98) --weight-decay 0.01 --clip-norm 2.0 --lr 0.002 --lr-scheduler inverse_sqrt --tokens-per-sample 512 --sample-break-mode none --max-tokens 65536 --max-update 6000 --save-interval-updates 1000 --disable-validation  --use-knn-datastore --use-joint-attention --joint-layer-index 2  --ddp-backend legacy_ddp --wandb-project VaLM-baseline --fp16 --finetune-from-model ${CKPT_DIR_R}/checkpoint_last.pt
+: No such file or directory
+[2024-04-21 01:49:17,030] torch.distributed.run: [WARNING] 
+[2024-04-21 01:49:17,030] torch.distributed.run: [WARNING] *****************************************
+[2024-04-21 01:49:17,030] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2024-04-21 01:49:17,030] torch.distributed.run: [WARNING] *****************************************
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+wandb: Currently logged in as: paula-ontalvilla (paulaixa). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.16.6 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.1
+wandb: Run data is saved locally in /ikerlariak/pontalvilla001/VaLM/wandb/run-20240421_014947-8dfixun4
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run checkpoint_gpt_blind_lrx4_40600upd_more_finetune2
+wandb: ⭐️ View project at https://wandb.ai/paulaixa/VaLM-baseline
+wandb: 🚀 View run at https://wandb.ai/paulaixa/VaLM-baseline/runs/8dfixun4
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+wandb: 
+wandb: Run history:
+wandb:              train/bsz ▁▃▃█
+wandb:             train/clip █▁▁▁
+wandb:          train/gb_free ▁▁▁▁
+wandb:            train/gnorm █▃▂▁
+wandb:             train/loss █▅▃▁
+wandb:       train/loss_scale ▁▁▁▁
+wandb:               train/lr ▁▄▆█
+wandb:              train/ppl █▅▂▁
+wandb:       train/train_wall █▃▃▁
+wandb:              train/ups ▁▃▃█
+wandb:             train/wall ▁▄▇█
+wandb:              train/wpb ▁▃▃█
+wandb:              train/wps ▁▃▃█
+wandb:        train_inner/bsz ▁
+wandb:       train_inner/clip ▁
+wandb:    train_inner/gb_free ▁
+wandb:      train_inner/gnorm ▁
+wandb:       train_inner/loss ▁
+wandb: train_inner/loss_scale ▁
+wandb:         train_inner/lr ▁
+wandb:        train_inner/ppl ▁
+wandb: train_inner/train_wall ▁
+wandb:        train_inner/ups ▁
+wandb:       train_inner/wall ▁
+wandb:        train_inner/wpb ▁
+wandb:        train_inner/wps ▁
+wandb: 
+wandb: Run summary:
+wandb:              train/bsz 507.1
+wandb:             train/clip 0.0
+wandb:          train/gb_free 12.8
+wandb:            train/gnorm 0.318
+wandb:             train/loss 4.038
+wandb:       train/loss_scale 4.0
+wandb:               train/lr 5e-05
+wandb:              train/ppl 16.43
+wandb:       train/train_wall 11.0
+wandb:              train/ups 0.67
+wandb:             train/wall 227.0
+wandb:              train/wpb 259640.9
+wandb:              train/wps 174962.0
+wandb:        train_inner/bsz 500.8
+wandb:       train_inner/clip 14.0
+wandb:    train_inner/gb_free 12.8
+wandb:      train_inner/gnorm 0.913
+wandb:       train_inner/loss 4.346
+wandb: train_inner/loss_scale 4.0
+wandb:         train_inner/lr 5e-05
+wandb:        train_inner/ppl 20.33
+wandb: train_inner/train_wall 74.0
+wandb:        train_inner/ups 0.51
+wandb:       train_inner/wall 211.0
+wandb:        train_inner/wpb 256408.5
+wandb:        train_inner/wps 131904.5
+wandb: 
+wandb: 🚀 View run checkpoint_gpt_blind_lrx4_40600upd_more_finetune2 at: https://wandb.ai/paulaixa/VaLM-baseline/runs/8dfixun4
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240421_014947-8dfixun4/logs

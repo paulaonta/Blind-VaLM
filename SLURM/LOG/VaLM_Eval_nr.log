@@ -1,0 +1,23 @@
+Hasi da
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.47196738022426094
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4636752136752137
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.22598307615729218
+
+
+Evaluation ViComTe all test --> alt

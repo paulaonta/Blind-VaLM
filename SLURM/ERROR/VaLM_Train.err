@@ -1,0 +1,12 @@
+wandb: Currently logged in as: paula-ontalvilla (paulaixa). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.16.1 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.16.0
+wandb: Run data is saved locally in /ikerlariak/pontalvilla001/VaLM/wandb/run-20231214_125349-w3etxb3m
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run checkpoint_valmV100
+wandb: ⭐️ View project at https://wandb.ai/paulaixa/VaLM-baseline
+wandb: 🚀 View run at https://wandb.ai/paulaixa/VaLM-baseline/runs/w3etxb3m
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 4066 ON localhost CANCELLED AT 2023-12-14T14:26:48 ***
+slurmstepd: error: *** STEP 4066.0 ON localhost CANCELLED AT 2023-12-14T14:26:48 ***

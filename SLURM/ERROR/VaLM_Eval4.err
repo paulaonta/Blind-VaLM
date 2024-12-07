@@ -1,0 +1,416 @@
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 19:49:29 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 19:50:13 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 19:52:59 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 19:53:45 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 19:56:24 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 19:56:48 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 19:58:25 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 19:58:49 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 20:00:16 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 20:00:41 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 20:02:21 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 20:02:45 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 20:04:24 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 20:04:50 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+/var/spool/slurm/d/job05645/slurm_script: line 66: 
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    : No such file or directory
+2024-03-30 20:06:16 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-03-30 20:06:41 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types

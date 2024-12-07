@@ -1,0 +1,1178 @@
+Hasi da
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.436289500509684
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4465811965811966
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.20433051269288202
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05027376804380289
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2018140589569161
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05612244897959184
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.45321100917431195
+Object Color Reasoning Accuracy is (sum) : 0.41834862385321103
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.38794233289646135
+Object Color Reasoning Accuracy is (sum) : 0.3735255570117955
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.41182466870540263
+Object Color Reasoning Accuracy is (sum) : 0.382262996941896
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.255
+Object Size Reasoning Accuracy is (sum): 0.25421875
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.245
+Object Size Reasoning Accuracy is (sum): 0.245
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.245
+Object Size Reasoning Accuracy is (sum): 0.245
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25825
+Object Size Reasoning Accuracy is (sum): 0.25825
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2438
+Object Size Reasoning Accuracy is (sum): 0.2438
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2438
+Object Size Reasoning Accuracy is (sum): 0.2438
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.2575
+Object Size Reasoning Accuracy is (sum): 0.259
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.231
+Object Size Reasoning Accuracy is (sum): 0.231
+
+
+wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.4031
+
+
+coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.733
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.7402413728078446
+
+
+stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.6040723981900452
+
+
+Evaluating DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7582536893384191
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_41000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.45690222397683905
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.48521916411824667
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4893162393162393
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2419113987058238
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04405176704828273
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2443310657596372
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05612244897959184
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.47522935779816516
+Object Color Reasoning Accuracy is (sum) : 0.41284403669724773
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.436435124508519
+Object Color Reasoning Accuracy is (sum) : 0.3905635648754915
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4383282364933741
+Object Color Reasoning Accuracy is (sum) : 0.3904179408766565
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25546875
+Object Size Reasoning Accuracy is (sum): 0.2546875
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.253
+Object Size Reasoning Accuracy is (sum): 0.253
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.253
+Object Size Reasoning Accuracy is (sum): 0.253
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.258875
+Object Size Reasoning Accuracy is (sum): 0.258875
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2438
+Object Size Reasoning Accuracy is (sum): 0.2438
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2438
+Object Size Reasoning Accuracy is (sum): 0.2438
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.26
+Object Size Reasoning Accuracy is (sum): 0.2625
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.225
+Object Size Reasoning Accuracy is (sum): 0.225
+
+
+wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3738
+
+
+coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.8065
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.8083160475202715
+
+
+stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5271493212669683
+
+
+Evaluating DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7470249574993928
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_42000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.45874457165416505
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.46788990825688076
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.47649572649572647
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2269785963165754
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04330512692882031
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.22732426303854875
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.049886621315192746
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.43853211009174314
+Object Color Reasoning Accuracy is (sum) : 0.4073394495412844
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.41022280471821754
+Object Color Reasoning Accuracy is (sum) : 0.37876802096985585
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4138634046890928
+Object Color Reasoning Accuracy is (sum) : 0.381243628950051
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25390625
+Object Size Reasoning Accuracy is (sum): 0.25375
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.26775
+Object Size Reasoning Accuracy is (sum): 0.26775
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.26775
+Object Size Reasoning Accuracy is (sum): 0.26775
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.255875
+Object Size Reasoning Accuracy is (sum): 0.255875
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2552
+Object Size Reasoning Accuracy is (sum): 0.2552
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2552
+Object Size Reasoning Accuracy is (sum): 0.2552
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.26025
+Object Size Reasoning Accuracy is (sum): 0.2615
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.233
+Object Size Reasoning Accuracy is (sum): 0.233
+
+
+wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3740
+
+
+coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.7935
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.796341693381105
+
+
+stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5864253393665159
+
+
+Evaluating DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7291532736181946
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_43000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4717726016581129
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.46992864424057085
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4658119658119658
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2152812344449975
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04554504728720757
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.22845804988662133
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05215419501133787
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.47522935779816516
+Object Color Reasoning Accuracy is (sum) : 0.41467889908256883
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4259501965923984
+Object Color Reasoning Accuracy is (sum) : 0.3853211009174312
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.44648318042813456
+Object Color Reasoning Accuracy is (sum) : 0.3924566768603466
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.256875
+Object Size Reasoning Accuracy is (sum): 0.25671875
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25475
+Object Size Reasoning Accuracy is (sum): 0.25475
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25475
+Object Size Reasoning Accuracy is (sum): 0.25475
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25825
+Object Size Reasoning Accuracy is (sum): 0.25825
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2482
+Object Size Reasoning Accuracy is (sum): 0.2482
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2482
+Object Size Reasoning Accuracy is (sum): 0.2482
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.258
+Object Size Reasoning Accuracy is (sum): 0.26125
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.224
+Object Size Reasoning Accuracy is (sum): 0.224
+
+
+wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3897
+
+
+coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.5935
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.6022062983217047
+
+
+stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.618552036199095
+
+
+Evaluating DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7762682324033201
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_44000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.47374654559810503
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4780835881753313
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.48717948717948717
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.22125435540069685
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.045793927327028375
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2199546485260771
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05555555555555555
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.45137614678899085
+Object Color Reasoning Accuracy is (sum) : 0.43486238532110094
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4089121887287025
+Object Color Reasoning Accuracy is (sum) : 0.38663171690694625
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4199796126401631
+Object Color Reasoning Accuracy is (sum) : 0.39551478083588176
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.255
+Object Size Reasoning Accuracy is (sum): 0.2546875
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2475
+Object Size Reasoning Accuracy is (sum): 0.2475
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2475
+Object Size Reasoning Accuracy is (sum): 0.2475
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.258375
+Object Size Reasoning Accuracy is (sum): 0.258375
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2448
+Object Size Reasoning Accuracy is (sum): 0.2448
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2448
+Object Size Reasoning Accuracy is (sum): 0.2448
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.262
+Object Size Reasoning Accuracy is (sum): 0.26575
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.223
+Object Size Reasoning Accuracy is (sum): 0.223
+
+
+wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3945
+
+
+coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.6835
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.6867810673203847
+
+
+stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.6131221719457014
+
+
+Evaluating DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7780254003628623
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_45000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4747993156994341
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4148827726809378
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.41452991452991456
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.18466898954703834
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.048531607765057244
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.1870748299319728
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.049886621315192746
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.46422018348623856
+Object Color Reasoning Accuracy is (sum) : 0.41651376146788993
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.42463958060288337
+Object Color Reasoning Accuracy is (sum) : 0.3984272608125819
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.43934760448521915
+Object Color Reasoning Accuracy is (sum) : 0.4016309887869521
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25859375
+Object Size Reasoning Accuracy is (sum): 0.2584375
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2435
+Object Size Reasoning Accuracy is (sum): 0.2435
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2435
+Object Size Reasoning Accuracy is (sum): 0.2435
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25925
+Object Size Reasoning Accuracy is (sum): 0.25925
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.247
+Object Size Reasoning Accuracy is (sum): 0.247
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.247
+Object Size Reasoning Accuracy is (sum): 0.247
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.25875
+Object Size Reasoning Accuracy is (sum): 0.25825
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.218
+Object Size Reasoning Accuracy is (sum): 0.218
+
+
+wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3870
+
+
+coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.7165
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.7222326984725627
+
+
+stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5914027149321267
+
+
+Evaluating DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7537964828068973
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_7_46000.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4641400184234768
+
+
+Evaluating MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.44648318042813456
+
+
+Evaluating COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.43803418803418803
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.19686411149825783
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04604280736684918
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.18594104308390022
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.049886621315192746
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.48073394495412847
+Object Color Reasoning Accuracy is (sum) : 0.43853211009174314
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4325032765399738
+Object Color Reasoning Accuracy is (sum) : 0.40104849279161203
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4434250764525994
+Object Color Reasoning Accuracy is (sum) : 0.4077471967380224
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25546875
+Object Size Reasoning Accuracy is (sum): 0.25515625
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25375
+Object Size Reasoning Accuracy is (sum): 0.25375
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25375
+Object Size Reasoning Accuracy is (sum): 0.25375
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2605
+Object Size Reasoning Accuracy is (sum): 0.2605
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2472
+Object Size Reasoning Accuracy is (sum): 0.2472
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2472
+Object Size Reasoning Accuracy is (sum): 0.2472
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.258
+Object Size Reasoning Accuracy is (sum): 0.262
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.23
+Object Size Reasoning Accuracy is (sum): 0.23
+
+
+wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3961
+
+
+coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.766
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.771450122572129
+
+
+stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.597737556561086
+
+
+Evaluating DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7411391591308447
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_5000upd/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/data-bin/0:./data/data-bin/1:./data/data-bin/2:./data/data-bin/3:./data/data-bin/4:./data/data-bin/5:./data/data-bin/6:./data/data-bin/7:./data/data-bin/8:./data/data-bin/9:./data/data-bin/10:./data/data-bin/11:./data/data-bin/12:./data/data-bin/13:./data/data-bin/14', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.47032504276878534
+Amaitu da

@@ -1,0 +1,1346 @@
+Hasi da
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.45769622833843016
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4358974358974359
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2458934793429567
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2556689342403628
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04529616724738676
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04591836734693878
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4990825688073395
+Object Color Reasoning Accuracy is (sum) : 0.41651376146788993
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4338138925294889
+Object Color Reasoning Accuracy is (sum) : 0.3944954128440367
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4525993883792049
+Object Color Reasoning Accuracy is (sum) : 0.3985728848114169
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25375
+Object Size Reasoning Accuracy is (sum): 0.25296875
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.249
+Object Size Reasoning Accuracy is (sum): 0.249
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.249
+Object Size Reasoning Accuracy is (sum): 0.249
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25575
+Object Size Reasoning Accuracy is (sum): 0.25575
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2416
+Object Size Reasoning Accuracy is (sum): 0.2416
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2416
+Object Size Reasoning Accuracy is (sum): 0.2416
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.2545
+Object Size Reasoning Accuracy is (sum): 0.25675
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.231
+Object Size Reasoning Accuracy is (sum): 0.231
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3584
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5932126696832579
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7561393734196202
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4513751809448612
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.6695
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_1000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.6716009805770319
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4138634046890928
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4252136752136752
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.19561971129915381
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.19727891156462585
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.051767048282727726
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05102040816326531
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.45321100917431195
+Object Color Reasoning Accuracy is (sum) : 0.41651376146788993
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4036697247706422
+Object Color Reasoning Accuracy is (sum) : 0.36828309305373524
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4148827726809378
+Object Color Reasoning Accuracy is (sum) : 0.3781855249745158
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25203125
+Object Size Reasoning Accuracy is (sum): 0.251875
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2455
+Object Size Reasoning Accuracy is (sum): 0.2455
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2455
+Object Size Reasoning Accuracy is (sum): 0.2455
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.262375
+Object Size Reasoning Accuracy is (sum): 0.262375
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2486
+Object Size Reasoning Accuracy is (sum): 0.2486
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2486
+Object Size Reasoning Accuracy is (sum): 0.2486
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.25725
+Object Size Reasoning Accuracy is (sum): 0.2585
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.234
+Object Size Reasoning Accuracy is (sum): 0.234
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3361
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5570135746606335
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.745724938927699
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4744045269114357
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.778
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_2000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.7850273430133886
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4413863404689093
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4252136752136752
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.250622200099552
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2585034013605442
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.047038327526132406
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05612244897959184
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.43669724770642204
+Object Color Reasoning Accuracy is (sum) : 0.41467889908256883
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.39580602883355176
+Object Color Reasoning Accuracy is (sum) : 0.36959370904325034
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.40978593272171254
+Object Color Reasoning Accuracy is (sum) : 0.38022426095820594
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.255
+Object Size Reasoning Accuracy is (sum): 0.254375
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2455
+Object Size Reasoning Accuracy is (sum): 0.2455
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2455
+Object Size Reasoning Accuracy is (sum): 0.2455
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25675
+Object Size Reasoning Accuracy is (sum): 0.25675
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2502
+Object Size Reasoning Accuracy is (sum): 0.2502
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2502
+Object Size Reasoning Accuracy is (sum): 0.2502
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.259
+Object Size Reasoning Accuracy is (sum): 0.26025
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.243
+Object Size Reasoning Accuracy is (sum): 0.243
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3198
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.6289592760180995
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7207245817797397
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.44440057902355573
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.455
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_3000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.4642655100886291
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.33537206931702346
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.3418803418803419
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.1986062717770035
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.1961451247165533
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04529616724738676
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05272108843537415
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.44403669724770645
+Object Color Reasoning Accuracy is (sum) : 0.4055045871559633
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.40104849279161203
+Object Color Reasoning Accuracy is (sum) : 0.3944954128440367
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4199796126401631
+Object Color Reasoning Accuracy is (sum) : 0.40061162079510704
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25375
+Object Size Reasoning Accuracy is (sum): 0.253125
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.237
+Object Size Reasoning Accuracy is (sum): 0.237
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.237
+Object Size Reasoning Accuracy is (sum): 0.237
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25675
+Object Size Reasoning Accuracy is (sum): 0.25675
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2416
+Object Size Reasoning Accuracy is (sum): 0.2416
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2416
+Object Size Reasoning Accuracy is (sum): 0.2416
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.25925
+Object Size Reasoning Accuracy is (sum): 0.257
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.235
+Object Size Reasoning Accuracy is (sum): 0.235
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3033
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5180995475113123
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7251103587194103
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4750625082247664
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.7505
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_4000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.7525928719592684
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4199796126401631
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.43162393162393164
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.226231956197113
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.23015873015873015
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.043056246888999505
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.051587301587301584
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.3926605504587156
+Object Color Reasoning Accuracy is (sum) : 0.3871559633027523
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.3892529488859764
+Object Color Reasoning Accuracy is (sum) : 0.3735255570117955
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.38328236493374107
+Object Color Reasoning Accuracy is (sum) : 0.3730886850152905
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2528125
+Object Size Reasoning Accuracy is (sum): 0.2528125
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2385
+Object Size Reasoning Accuracy is (sum): 0.2385
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2385
+Object Size Reasoning Accuracy is (sum): 0.2385
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25475
+Object Size Reasoning Accuracy is (sum): 0.25475
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2398
+Object Size Reasoning Accuracy is (sum): 0.2398
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2398
+Object Size Reasoning Accuracy is (sum): 0.2398
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.256
+Object Size Reasoning Accuracy is (sum): 0.25875
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.232
+Object Size Reasoning Accuracy is (sum): 0.232
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.2818
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5773755656108597
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7120958870841012
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4550598762995131
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.7865
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_1_5000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.7823873279275881
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.39551478083588176
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4230769230769231
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.20856147336983574
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.21882086167800455
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.047784967645594825
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05555555555555555
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.44036697247706424
+Object Color Reasoning Accuracy is (sum) : 0.3981651376146789
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.40498034076015726
+Object Color Reasoning Accuracy is (sum) : 0.37745740498034075
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.4199796126401631
+Object Color Reasoning Accuracy is (sum) : 0.382262996941896
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.254375
+Object Size Reasoning Accuracy is (sum): 0.25375
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.24925
+Object Size Reasoning Accuracy is (sum): 0.24925
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.24925
+Object Size Reasoning Accuracy is (sum): 0.24925
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.254625
+Object Size Reasoning Accuracy is (sum): 0.254625
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2496
+Object Size Reasoning Accuracy is (sum): 0.2496
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2496
+Object Size Reasoning Accuracy is (sum): 0.2496
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.2565
+Object Size Reasoning Accuracy is (sum): 0.2565
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.229
+Object Size Reasoning Accuracy is (sum): 0.229
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.2798
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.5755656108597285
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.6640666295232789
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.47032504276878534
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.721
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint1.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.7291155949462569
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4230377166156983
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.3974358974358974
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.20930811348929815
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2046485260770975
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04529616724738676
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05328798185941043
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.44036697247706424
+Object Color Reasoning Accuracy is (sum) : 0.42752293577981654
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.40104849279161203
+Object Color Reasoning Accuracy is (sum) : 0.39711664482306686
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.41284403669724773
+Object Color Reasoning Accuracy is (sum) : 0.39755351681957185
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2546875
+Object Size Reasoning Accuracy is (sum): 0.25453125
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2515
+Object Size Reasoning Accuracy is (sum): 0.2515
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2515
+Object Size Reasoning Accuracy is (sum): 0.2515
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.254875
+Object Size Reasoning Accuracy is (sum): 0.254875
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2498
+Object Size Reasoning Accuracy is (sum): 0.2498
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2498
+Object Size Reasoning Accuracy is (sum): 0.2498
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.253
+Object Size Reasoning Accuracy is (sum): 0.2535
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.229
+Object Size Reasoning Accuracy is (sum): 0.229
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3080
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.579185520361991
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7125958942270604
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4608501118568233
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.731
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_2_6000.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.735055628889308
+
+
+Evaluation MEMORY COLOR
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.4230377166156983
+
+
+Evaluation COLOR TERMS
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is : 0.3974358974358974
+
+
+Evaluation ViComTe all test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 1579, 3467, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.20930811348929815
+
+
+Evaluation ViComTe single test --> obj
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.2046485260770975
+
+
+Evaluation ViComTe all test --> alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{736, 4481, 3360, 7048, 1449, 3467, 1579, 1901, 1746, 2866, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.04529616724738676
+
+
+Evaluation ViComTe single test -->alt
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{3360, 4481, 736, 7048, 1449, 1579, 3467, 1901, 2866, 1746, 5496, 4287}
+Object Color Reasoning Accuracy is : 0.05328798185941043
+
+
+Evaluation SHAPE IT (P1)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.44036697247706424
+Object Color Reasoning Accuracy is (sum) : 0.42752293577981654
+
+
+Evaluation SHAPE IT (P2)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.40104849279161203
+Object Color Reasoning Accuracy is (sum) : 0.39711664482306686
+
+
+Evaluation SHAPE IT (P3)
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+{(14615,), (7117,), (1020, 36568)}
+Object Color Reasoning Accuracy is (mean): 0.41284403669724773
+Object Color Reasoning Accuracy is (sum) : 0.39755351681957185
+
+
+Evaluation SIZE (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2546875
+Object Size Reasoning Accuracy is (sum): 0.25453125
+
+
+Evaluation SIZE (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2515
+Object Size Reasoning Accuracy is (sum): 0.2515
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2515
+Object Size Reasoning Accuracy is (sum): 0.2515
+
+
+Evaluation SIZE (P1) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.254875
+Object Size Reasoning Accuracy is (sum): 0.254875
+
+
+Evaluation SIZE (P2) --> tnwt
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2498
+Object Size Reasoning Accuracy is (sum): 0.2498
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.2498
+Object Size Reasoning Accuracy is (sum): 0.2498
+
+
+Evaluation HEIGHT (P1)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean) : 0.253
+Object Size Reasoning Accuracy is (sum): 0.2535
+
+
+Evaluation HEIGHT (P2)
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.25
+Object Size Reasoning Accuracy is (sum): 0.25
+one
+Evaluating;./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Size Reasoning Accuracy is (mean): 0.229
+Object Size Reasoning Accuracy is (sum): 0.229
+
+
+Evaluation wikitext-103
+{'_name': 'language_modeling', 'data': './data/wikitext-103/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation lambada
+{'_name': 'language_modeling', 'data': './data/lambada/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Accuracy: 0.3080
+
+
+Evaluation coco
+{'_name': 'language_modeling', 'data': './data/coco/', 'sample_break_mode': eos, 'tokens_per_sample': 1024, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': 4, 'batch_size_valid': 4, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+sartu
+
+
+Evaluation stt2
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2210
+Object Color Reasoning Accuracy is : 0.579185520361991
+
+
+Evaluation DBPedia adn AGNews
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.7125958942270604
+sartu
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+Object Color Reasoning Accuracy is (mean): 0.4608501118568233
+
+
+Evaluation mpqa
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+2000
+Object Color Reasoning Accuracy is : 0.731
+all
+Evaluating:./CHECKPOINTS/checkpoint_valmA100_40600upd_lrx4_more_finetune3/checkpoint_last.pt
+{'_name': 'language_modeling', 'data': './data/finetune_data', 'sample_break_mode': none, 'tokens_per_sample': 512, 'output_dictionary_size': -1, 'self_target': False, 'future_target': False, 'past_target': False, 'add_bos_token': False, 'max_target_positions': None, 'shorten_method': none, 'shorten_data_split_list': '', 'pad_to_fixed_length': False, 'pad_to_fixed_bsz': False, 'seed': 1, 'batch_size': None, 'batch_size_valid': None, 'dataset_impl': None, 'data_buffer_size': 10, 'tpu': False, 'use_plasma_view': False, 'plasma_path': '/tmp/plasma'}
+10606
+Object Color Reasoning Accuracy is : 0.735055628889308
+Amaitu da

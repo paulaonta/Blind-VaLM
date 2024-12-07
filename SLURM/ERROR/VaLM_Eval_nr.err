@@ -1,0 +1,7 @@
+2024-08-21 16:52:40 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-08-21 16:53:03 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-08-21 16:53:20 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-08-21 16:54:21 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 18034.3 ON localhost CANCELLED AT 2024-08-21T16:54:56 ***
+slurmstepd: error: *** JOB 18034 ON localhost CANCELLED AT 2024-08-21T16:54:56 ***

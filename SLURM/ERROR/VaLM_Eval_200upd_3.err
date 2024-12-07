@@ -1,0 +1,208 @@
+2024-05-30 16:32:43 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:33:15 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:33:34 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:35:03 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:36:26 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:37:23 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:38:18 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:38:57 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:39:28 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:40:16 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:42:09 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 16:43:31 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:44:26 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:45:03 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:45:41 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:46:47 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:47:30 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:48:20 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:48:56 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:49:23 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:49:48 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:50:12 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:50:31 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:51:31 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:52:32 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:53:04 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:53:39 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:53:57 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:54:18 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:54:42 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:56:34 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 16:57:53 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:58:45 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 16:59:23 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:00:00 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:01:04 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:01:48 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:02:33 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:03:09 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:03:34 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:04:11 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:04:35 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:04:51 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:05:54 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:06:54 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:07:28 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:08:02 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:08:19 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:08:40 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:09:03 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:10:51 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 17:12:08 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:13:00 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:13:37 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:14:13 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:15:26 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:16:15 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:16:58 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:17:36 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:18:00 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:18:23 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:18:37 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:18:46 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:19:19 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:19:51 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:20:09 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:20:28 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:20:38 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:20:50 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:21:03 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:22:02 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 17:22:44 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:23:17 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:23:40 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:24:01 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:24:39 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:25:05 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:25:30 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:25:55 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:26:10 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:26:26 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:26:42 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:26:59 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:27:34 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:28:11 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:28:32 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:28:53 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:29:05 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:29:21 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:29:37 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:30:38 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 17:31:24 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:31:55 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:32:17 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:32:39 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:33:16 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:33:42 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:34:06 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:34:27 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:34:40 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:34:54 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:35:07 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:35:17 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:35:51 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:36:22 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:36:41 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:37:00 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:37:10 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:37:21 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:37:34 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:38:33 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 17:39:16 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:39:43 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:40:04 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:40:24 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:40:58 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:41:21 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:41:44 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:42:05 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:42:18 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:42:31 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:42:44 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:42:54 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:43:33 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:44:08 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:44:30 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:44:52 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:45:02 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:45:14 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:45:27 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:46:26 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 17:47:10 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:47:39 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:47:58 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:48:18 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:48:52 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:49:15 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:49:38 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:49:59 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:50:12 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:50:39 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:50:53 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:51:04 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:51:37 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:52:09 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:52:27 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:52:44 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:52:54 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:53:06 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:53:19 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:54:18 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+usage: verify_size_reason_combinedSizes_p2.py [-h] [--path PATH]
+                                              [--data-path DATA_PATH]
+                                              [--model-overrides] [--tnwt]
+                                              [--oneToken]
+verify_size_reason_combinedSizes_p2.py: error: unrecognized arguments: ze.jsonl
+srun: error: localhost: task 0: Exited with exit code 2
+2024-05-30 17:55:01 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:55:28 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:55:48 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:56:09 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:56:41 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:57:04 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:57:27 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:57:47 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-05-30 17:58:01 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types

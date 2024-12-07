@@ -1,0 +1,20 @@
+2024-04-15 10:17:39 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:18:04 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:18:24 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:19:24 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:20:26 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:21:00 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:21:36 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:21:56 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:22:19 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:22:45 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:23:36 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:24:15 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:24:52 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:25:54 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:28:25 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:33:29 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+2024-04-15 10:37:52 | INFO | fairseq.tasks.language_modeling | dictionary: 49412 types
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6583 ON localhost CANCELLED AT 2024-04-15T10:38:57 ***
+slurmstepd: error: *** STEP 6583.16 ON localhost CANCELLED AT 2024-04-15T10:38:57 ***

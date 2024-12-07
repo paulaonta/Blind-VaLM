@@ -1,0 +1,89 @@
+[2024-07-27 16:40:25,430] torch.distributed.run: [WARNING] 
+[2024-07-27 16:40:25,430] torch.distributed.run: [WARNING] *****************************************
+[2024-07-27 16:40:25,430] torch.distributed.run: [WARNING] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+[2024-07-27 16:40:25,430] torch.distributed.run: [WARNING] *****************************************
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+/ikerlariak/pontalvilla001/VaLM/fairseq/fairseq/distributed/utils.py:620: UserWarning: The torch.cuda.*DtypeTensor constructors are no longer recommended. It's best to use methods such as torch.tensor(data, dtype=*, device='cuda') to create tensors. (Triggered internally at ../torch/csrc/tensor/python_tensor.cpp:83.)
+  all_gather_list._buffer = torch.cuda.ByteTensor(buffer_size)
+wandb: Currently logged in as: paula-ontalvilla (paulaixa). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.17.5
+wandb: Run data is saved locally in /ikerlariak/pontalvilla001/VaLM/wandb/run-20240727_164101-cvlo8sbx
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run checkpoint_valmA100_40600upd_medium
+wandb: ⭐️ View project at https://wandb.ai/paulaixa/VaLM-baseline
+wandb: 🚀 View run at https://wandb.ai/paulaixa/VaLM-baseline/runs/cvlo8sbx
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+/ikerlariak/pontalvilla001/VaLM/VaLM_ve_image/lib/python3.9/site-packages/torch/nn/functional.py:5076: UserWarning: Support for mismatched key_padding_mask and attn_mask is deprecated. Use same type for both instead.
+  warnings.warn(
+wandb: - 0.016 MB of 0.016 MB uploadedwandb: \ 0.016 MB of 0.016 MB uploadedwandb: | 0.016 MB of 0.432 MB uploadedwandb: / 0.027 MB of 0.432 MB uploadedwandb: - 0.432 MB of 0.432 MB uploadedwandb: 
+wandb: Run history:
+wandb:              train/bsz ▁▁▁▁▁▁▁
+wandb:             train/clip █▁▁▁▁▁▁
+wandb:          train/gb_free ▁▁▁▁▁▁▁
+wandb:            train/gnorm ▅▁▃▅▇█▇
+wandb:             train/loss █▃▂▂▁▁▁
+wandb:       train/loss_scale ▁█▁▁▁▁▁
+wandb:               train/lr █▅▃▂▁▁▁
+wandb:              train/ppl █▃▂▂▁▁▁
+wandb:       train/train_wall ██████▁
+wandb:              train/ups █▆▅▆▅▆▁
+wandb:             train/wall ▁▂▄▅▇██
+wandb:              train/wpb ▃▁▂▇▃▃█
+wandb:              train/wps █▆▆▇▆█▁
+wandb:        train_inner/bsz ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:       train_inner/clip ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train_inner/gb_free ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      train_inner/gnorm █▁▁▂▁▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▂▃▄▄▃▄▃▃▄▃▃▄▃▃▃▃
+wandb:       train_inner/loss █▅▃▃▃▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train_inner/loss_scale █▄▄▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▂▁▁▁▂▁▂▂▂▂▂▂▂▂
+wandb:         train_inner/lr ▃█▆▅▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train_inner/ppl █▄▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train_inner/train_wall ▂▁▁▁▁▂▁▂▁▁▁▂▃▄▄▁▂▁▁▁▂▁▂▁▁▂█▇▂▁▂▃▂▂▂▂▁▁▁▁
+wandb:        train_inner/ups █████▆█▆███▆▆▅▅█████▆█▆███▁▁▆██▆▆█▆█████
+wandb:       train_inner/wall ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:        train_inner/wpb ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train_inner/wps ▇██▇█▇█▇███▇▅▅▄█▇███▇█▇██▇▁▁▇▇▇▆▇▇▇▇██▇█
+wandb: 
+wandb: Run summary:
+wandb:              train/bsz 128.0
+wandb:             train/clip 0.0
+wandb:          train/gb_free 14.5
+wandb:            train/gnorm 0.595
+wandb:             train/loss 4.348
+wandb:       train/loss_scale 8.0
+wandb:               train/lr 0.00031
+wandb:              train/ppl 20.37
+wandb:       train/train_wall 527.0
+wandb:              train/ups 0.22
+wandb:             train/wall 651878.0
+wandb:              train/wpb 65536.0
+wandb:              train/wps 14335.9
+wandb:        train_inner/bsz 128.0
+wandb:       train_inner/clip 0.0
+wandb:    train_inner/gb_free 14.5
+wandb:      train_inner/gnorm 0.595
+wandb:       train_inner/loss 4.35
+wandb: train_inner/loss_scale 8.0
+wandb:         train_inner/lr 0.00031
+wandb:        train_inner/ppl 20.4
+wandb: train_inner/train_wall 391.0
+wandb:        train_inner/ups 0.26
+wandb:       train_inner/wall 651790.0
+wandb:        train_inner/wpb 65536.0
+wandb:        train_inner/wps 16764.6
+wandb: 
+wandb: 🚀 View run checkpoint_valmA100_40600upd_medium at: https://wandb.ai/paulaixa/VaLM-baseline/runs/cvlo8sbx
+wandb: ⭐️ View project at: https://wandb.ai/paulaixa/VaLM-baseline
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20240727_164101-cvlo8sbx/logs
+wandb: WARNING The new W&B backend becomes opt-out in version 0.18.0; try it out with `wandb.require("core")`! See https://wandb.me/wandb-core for more information.

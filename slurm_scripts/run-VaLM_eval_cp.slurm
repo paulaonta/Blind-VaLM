@@ -1,0 +1,90 @@
+#!/bin/bash
+#SBATCH --job-name=VaLM_eval
+#SBATCH --cpus-per-task=1
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --gres=gpu:1
+#SBATCH --output=./SLURM/LOG/hutsa.log
+#SBATCH --error=./SLURM/ERROR/hutsa.err
+#SBATCH --mem=30GB
+#SBATCH --mail-user=paula.ontalvilla@ehu.eus
+
+echo "Hasi da"
+
+CKPT_DIR="./CHECKPOINTS"
+#ckpts=( "checkpoint_valmA100_40600upd" "checkpoint_valmA100_40600upd_lrx4" "checkpoint_gpt_blind_40600upd" "checkpoint_gpt_blind_125860upd" "checkpoint_gpt_blind_lrx4" "checkpoint_gpt_blind_125860upd_moreData"  "checkpoint_gpt_blind_lrx4_moreData" "checkpoint_gpt_blind_lrx4_40600upd")
+ckpts=("checkpoint_valmA100_40600upd_lrx4")
+for ckpt in "${ckpts[@]}"; do
+    '''
+    echo -e "\n"
+    echo "Evaluating MEMORY COLOR"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    echo "one"
+    srun python evaluation_scripts/verify_height_reason_combinedSizes_p2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --oneToken
+    #srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_color/test.jsonl  
+    
+    echo -e "\n" 
+    echo "Evaluation their MEMORY COLOR"
+    #srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    srun python evaluation_scripts/verify_color_prediction_ViComTe.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_color/test.jsonl
+    
+    
+    echo -e "\n" 
+    echo "Evaluating COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms
+    
+    echo -e "\n" 
+    echo "Evaluation their COLOR TERMS"
+    srun python evaluation_scripts/verify_color_prediction_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --color-terms   
+    
+    echo -e "\n"                                            
+    echo "Evaluation RELATIVE SIZE (smaller)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --eval-smaller
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE (bigger)"
+    srun python evaluation_scripts/verify_size_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+
+    echo -e "\n"
+    echo "Evaluation RELATIVE SIZE fourth"
+    srun python evaluation_scripts/verify_size_reason_inPairs.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides 
+    
+    echo -e "\n"
+    echo "Evaluation their RELATIVE SIZE"
+    srun python evaluation_scripts/verify_size_reason_orig.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides
+    
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> obj"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --obj_truth --data-path ./data/object_size/test_shape.jsonl
+
+    echo -e "\n"
+    echo "Evaluation OBJECT SHAPE --> alt"
+    srun python evaluation_scripts/verify_shape_reason.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/object_size/test_shape.jsonl
+    
+    echo -e "\n"
+    echo "wikitext-103"
+    fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    
+    echo -e "\n"
+    echo "mpqa"
+    srun python evaluation_scripts/eval_sst2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" \
+--model-overrides
+     '''
+    start=$(date +%s)
+    fairseq-eval-lm ./data/lambada/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    end=$(date +%s)
+    echo "Elapsed Time: $(($end-$start)) seconds"
+
+    start=$(date +%s)
+    fairseq-eval-lm ./data/wikitext-103/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    end=$(date +%s)
+    echo "Elapsed Time: $(($end-$start)) seconds"
+    #fairseq-eval-lm ./data/coco/ --batch-size 4 --sample-break-mode eos --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    #python evaluation_scripts/eval_lambada.py --data-path ./data/lambada/lambada_test.jsonl --preprocess --path "$CKPT_DIR/$ckpt/checkpoint_last.pt"
+    #srun python evaluation_scripts/eval_sst2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/mpqa/test.json
+    #echo "all"
+    #srun python evaluation_scripts/eval_sst2.py --path "$CKPT_DIR/$ckpt/checkpoint_last.pt" --model-overrides --data-path ./data/mpqa/test_all.json
+done
+
+echo "Amaitu da"
+
