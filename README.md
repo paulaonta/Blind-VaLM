@@ -1,5 +1,5 @@
 # Blind-VaLM
-Official implementation of our paper "[Improving the Efficiency of Visually Augmented Language Models][https://arxiv.org/abs/2409.11148]". Please cite our paper if you find this repository helpful in your research.
+Official implementation of our paper "[Improving the Efficiency of Visually Augmented Language Models](https://arxiv.org/abs/2409.11148)". Please cite our paper if you find this repository helpful in your research.
 
 ## Environment Setup 
 Create a virtual environment and run 
