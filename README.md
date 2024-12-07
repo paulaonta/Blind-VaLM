@@ -8,14 +8,17 @@ bash setup.sh
 ```
 Then the revised `fairseq` and ohter packages will be installed. We strongly recommend you to use python version >=3.6 <=3.8 for stability.
 
-## Text and Image Data Preparation
-* Preprocessing text training data:
+## Text Preparation
+The preprocessing of the text training data is the same as in VaLM, i.e:
+  1. Download the CC100-EN dataset which is available at [CC100-EN](https://data.statmt.org/cc-100/en.txt.xz).
+  2. Split the dataset using the script `./data/roberta-cc100-ori/split_roberta_cc100.py.py`.
+  3. Shard the dataset. The sharding script is available at `./data/roberta-cc100-ori/sharded_data.py`.
+  4. Preprocess the data:
 ```
 bash myscripts/preprocess_valm_text.sh
 ```
-The cc100 English original corpus would be available at [CC100-EN](https://data.statmt.org/cc-100/en.txt.xz). The sharding script is available at `./data/roberta-cc100-ori/sharded_data.py`.
 
-## Training Blind-VaLM and VaLM 
+## Training Blind-VaLM
 * Example training command on multiple data shards with 16 Tesla-V100 gpus:
 ```
 bash myscripts/train_valm.sh
@@ -26,7 +29,7 @@ For training text-only baseline GPT-BLIND, run:
 bash myscripts/train_gpt_blind.sh
 ```
 
-## Evaluating Blind-VaLM and VaLM
+## Evaluating Blind-VaLM
 * Evaluate the trained checkpoint on **object color reasoning** (Memory Colors, Color Terms and ViComTe, respectively):
 ```
 srun python evaluation_scripts/verify_color_prediction.py --path /path/to/ckpt
