@@ -19,14 +19,21 @@ bash myscripts/preprocess_valm_text.sh
 ```
 
 ## Training Blind-VaLM
-* Example training command on multiple data shards with 16 Tesla-V100 gpus:
+* For training Blind-VaLM on multiple data shards with 4 A100 gpus:
 ```
-bash myscripts/train_valm.sh
+bash myscripts/train_blindVaLM.sh.sh
 ```
-
-For training text-only baseline GPT-BLIND, run:
+* For training Blind-VaLM on **more** data shards with 4 A100 gpus:
 ```
-bash myscripts/train_gpt_blind.sh
+bash train_blindVaLM_moreUpd.sh
+```
+* For training Blind-VaLM on multiple data shards using a **GPT2-Medium** backbone with 8 A100 gpus:
+```
+bash train_blindVaLM_medium.sh
+```
+* For training text-only baseline GPT-2, run:
+```
+bash myscripts/train_gpt_small.sh
 ```
 
 ## Evaluating Blind-VaLM
