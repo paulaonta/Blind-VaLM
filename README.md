@@ -2,11 +2,11 @@
 Official implementation of our paper "[Improving the Efficiency of Visually Augmented Language Models](https://arxiv.org/abs/2409.11148)". Please cite our paper if you find this repository helpful in your research.
 
 ## Environment Setup 
-Create a virtual environment and run 
+Create a virtual environment and run  
 ```
-bash setup.sh
+pip install -r requirements.txt
 ```
-Then the revised `fairseq` and ohter packages will be installed. We strongly recommend you to use python version >=3.6 <=3.8 for stability.
+Then the revised `fairseq` and ather packages will be installed. 
 
 ## Text Preparation
 The preprocessing of the text training data is the same as in VaLM, i.e:
@@ -23,7 +23,7 @@ bash myscripts/preprocess_valm_text.sh
 ```
 bash myscripts/train_blindVaLM.sh.sh
 ```
-* For training Blind-VaLM on **more** data shards with 4 A100 gpus:
+* For training Blind-VaLM on **more data** shards with 4 A100 gpus:
 ```
 bash train_blindVaLM_moreUpd.sh
 ```
@@ -72,5 +72,5 @@ srun python evaluation_scripts/eval_dbp_agn.py --path /path/to/ckpt
 srun python evaluation_scripts/eval_dbp_agn.py --path /path/to/ckpt  --agn
 ```
 
-## Credits
-VaLM is developed based on [fairseq](https://github.com/facebookresearch/fairseq) and [CLIP](https://github.com/openai/CLIP).
+## Acknowledgements
+This work is partially supported by the Ministry of Science and Innovation of the Spanish Government (AWARE project TED2021-131617B-I00, DeepR3 project TED2021-130295B-C31), project funded by MCIN/AEI/10.13039/501100011033 and European Union NextGeneration EU/PRTR, and the Basque Government (IXA excellence research group IT1570-22 and IKER-GAITU project).
